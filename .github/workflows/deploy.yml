@@ -4,7 +4,7 @@ name: Build and Deploy .NET 9 to Azure Container Apps
 on:
   push:
     branches:
-      - main
+      - master
 
 env:
   IMAGE_NAME: myapp
